@@ -8,7 +8,7 @@ test("Generates employee", () => {
     expect(employee.email).toEqual(expect.any(String));
 })
 
-test("Checks all methods for employee class", () => {
+test("Checks the methods for employee class", () => {
     const employee = new Employee("Graham Purnell", 0123, "g.purnell15@gmail.com");
 
     expect(employee.getName()).toBe(employee.name);
