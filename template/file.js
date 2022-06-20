@@ -5,7 +5,7 @@ const file = (fileContent) => {
         if (err) {
             console.log(err);
         } else {
-            console("Team profile generated.")
+            console.log("Team profile generated.")
         }
     })
 };

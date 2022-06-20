@@ -10,7 +10,7 @@ return `
         <ul>
             <li>ID: ${managerData.getId()}</li>
             <li>Email: <a href="mailto:${managerData.getEmail()}">${managerData.getEmail()}</a></li>
-            <li>Office Number: ${managerData.getOfficeNumber()}</li>
+            <li>Office Number: ${managerData.getofficeNumber()}</li>
         </ul>
     </div>
 </section>
