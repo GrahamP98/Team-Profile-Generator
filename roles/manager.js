@@ -22,7 +22,7 @@ const managerQuestions = [
         name: "officeNumber",
         message: "What is the manager's office number?"
     }
-]
+];
 
 class Manager extends Employee {
     constructor(name, id, email, officeNumber) {
@@ -37,6 +37,6 @@ class Manager extends Employee {
     getRole() {
         return "Manager";
     }
-}
+};
 
 module.exports = { Manager, managerQuestions };

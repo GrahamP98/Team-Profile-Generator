@@ -7,7 +7,7 @@ test("Generates engineer", () => {
     expect(employee.id).toEqual(expect.any(Number));
     expect(employee.email).toEqual(expect.any(String));
     expect(employee.github).toEqual(expect.any(String));
-})
+});
 
 test("Checks the methods for engineer's class", () => {
     const employee = new Engineer("Graham Purnell", 0123, "g.purnell15@gmail.com", "GrahamP98");
@@ -17,4 +17,4 @@ test("Checks the methods for engineer's class", () => {
     expect(employee.getEmail()).toBe(employee.email);
     expect(employee.getGithub()).toBe(employee.github);
     expect(employee.getRole()).toBe("Engineer");
-})
+});

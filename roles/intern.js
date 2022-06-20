@@ -23,7 +23,7 @@ const internQuestions = [
         name: "school",
         message: "What school did the intern attend?"
     }
-]
+];
 
 class Intern extends Employee {
     constructor(name, id, email, school) {
@@ -38,6 +38,6 @@ class Intern extends Employee {
     getRole() {
         return "Intern";
     }
-}
+};
 
 module.exports = { Intern, internQuestions };

@@ -22,7 +22,7 @@ const engineerQuestions = [
         name: "github",
         message: "What\'s the engineer's username for github?"
     }
-]
+];
 
 class Engineer extends Employee {
     constructor(name, id, email, github) {
@@ -37,6 +37,6 @@ class Engineer extends Employee {
     getRole() {
         return "Engineer";
     }
-}
+};
 
 module.exports = { Engineer, engineerQuestions };

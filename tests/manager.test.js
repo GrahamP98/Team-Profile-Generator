@@ -7,7 +7,7 @@ test("Generates manager", () => {
     expect(employee.id).toEqual(expect.any(Number));
     expect(employee.email).toEqual(expect.any(String));
     expect(employee.officeNumber).toEqual(expect.any(Number));
-})
+});
 
 test("Checks the methods for manager's class", () => {
     const employee = new Manager("Graham Purnell", 0123, "g.purnell15@gmail.com", "111");
@@ -17,4 +17,4 @@ test("Checks the methods for manager's class", () => {
     expect(employee.getEmail()).toBe(employee.email);
     expect(employee.getofficeNumber()).toBe(employee.officeNumber);
     expect(employee.getRole()).toBe("Manager");
-})
+});
