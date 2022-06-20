@@ -1,6 +1,6 @@
 const inquirer = require("inquirer")
 
-const employeesArr = []
+const employeeArr = []
 
 // const init = ( =>)
 

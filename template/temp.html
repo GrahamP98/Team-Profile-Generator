@@ -1,28 +1,4 @@
-// 
-const manager = managerData => {
-return `
-    
-`
-}
-const employeeTemp = employeeArr => {
-    let employeeHTML = ''
-
-    for (i = 0; i < employeeArr.length; i++) {
-        if (employeeArr[i].getRole() === "Manager") {
-            employeeHTML = employeeHTML + manager(employeeArr[i])
-        }
-        if (employeeArr[i].getRole() === "Intern") {
-            employeeHTML = employeeHTML + intern(employeeArr[i])
-        }
-        if (employeeArr[i].getRole() === "Engineer") {
-            employeeHTML = employeeHTML + engineer(employeeArr[i])
-        }
-    } return employeeHTML
-}
-
-const template = data => {
-    return `
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -46,9 +22,19 @@ const template = data => {
     </main>
 </body>
 
-</html>
-`
-}
+</html> -->
 
-module.exports = template;
-
+<section id="${managerData.getRole()}-card">
+    <div>
+        <h2>${managerData.getName()}</h2>
+        <h3>Role: ${managerData.getRole()}</h3>
+    </div>
+    <div>
+        <ul>
+            <li>ID: ${managerData.getId()}</li>
+            <li>Email: <a href="mailto:${managerData.getEmail()}">${managerData.getEmail()}</a></li>
+            <li>
+            </li>
+        </ul>
+    </div>
+</section>
