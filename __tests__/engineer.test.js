@@ -1,7 +1,7 @@
-const { Engineer } = require("../roles/engineer");
+const { Engineer } = require("../lib/engineer");
 
 test("Generates engineer", () => {
-    const employee = new Engineer("Graham Purnell", 0123, "g.purnell15@gmail.com", "GrahamP98");
+    const employee = new Engineer("Graham Purnell", 1234, "g.purnell15@gmail.com", "GrahamP98");
 
     expect(employee.name).toBe("Graham Purnell");
     expect(employee.id).toEqual(expect.any(Number));
@@ -10,7 +10,7 @@ test("Generates engineer", () => {
 });
 
 test("Checks the methods for engineer's class", () => {
-    const employee = new Engineer("Graham Purnell", 0123, "g.purnell15@gmail.com", "GrahamP98");
+    const employee = new Engineer("Graham Purnell", 1234, "g.purnell15@gmail.com", "GrahamP98");
 
     expect(employee.getName()).toBe(employee.name);
     expect(employee.getId()).toBe(employee.id);

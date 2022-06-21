@@ -1,10 +1,10 @@
 const inquirer = require("inquirer");
-const template = require("./template/template");
-const file = require("./template/file");
+const template = require("./utils/template");
+const file = require("./utils/file");
 
-const { Engineer, engineerQuestions } = require("./roles/engineer");
-const { Manager, managerQuestions } = require("./roles/manager");
-const { Intern, internQuestions } = require("./roles/intern");
+const { Engineer, engineerQuestions } = require("./lib/engineer");
+const { Manager, managerQuestions } = require("./lib/manager");
+const { Intern, internQuestions } = require("./lib/intern");
 
 
 const employeeArr = []
