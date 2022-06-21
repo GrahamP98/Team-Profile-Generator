@@ -2,7 +2,7 @@
 
 ## Walkthrough Video / Images
 
-Link for walkthrough video below
+Link for walkthrough video - 
 https://www.awesomescreenshot.com/video/9574806?key=c083318b685461992f6e6116fc911227
 
 ![Screenshot of generated html page](./assets/images/Screen%20Shot%202022-06-21%20at%205.11.48%20PM.png)
