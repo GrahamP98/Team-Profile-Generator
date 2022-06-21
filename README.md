@@ -2,7 +2,10 @@
 
 ## Walkthrough Video / Images
 
+Link for walkthrough video below
+https://www.awesomescreenshot.com/video/9574806?key=c083318b685461992f6e6116fc911227
 
+![Screenshot of generated html page](./assets/images/Screen%20Shot%202022-06-21%20at%205.11.48%20PM.png)
 
 ## Description
 CLI to dynamically create a HTML page. Pick Manager, Engineer, or Intern. Each added employee creates a new card with that employee's info. Each option has questions specific to the selected role.
